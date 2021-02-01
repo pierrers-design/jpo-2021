@@ -29,18 +29,18 @@ body {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 4vw;
 	line-height: 1.3em;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2.2vw;
 	line-height: 1.2em;
 }
 
 a {
 	color: rgb(255, 255, 255);
-	font-size: 1.5em;
+	font-size: 1.6vw;
 }
 
 a:hover {
@@ -70,9 +70,9 @@ a:hover {
 
 .global-attente {
 	display: grid;
-	width: 60vw;
-	height: 60vh;
-	margin: 20vh 20vw;
+	width: 70vw;
+	height: 74vh;
+	margin: 13vh 15vw;
 	grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-columns: 1fr 1fr;
 }
