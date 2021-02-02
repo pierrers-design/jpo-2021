@@ -1,34 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.boite-global{
+	border:1px solid black;
+	width: 100vw;
+	height:auto;
+	margin:100px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:auto;
+	grid-gap: 0px; /*grille avec 30px ecart */
+	grid-auto-flow: row ; /*ranger en rangée*/
+}
 
-body {
+body{
+overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+article h3{	
+	height: 300px;
+	background-color: white;
+	opacity: 0.80;	
+	position: relative;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	padding-top:20%; 
+	transition: 1s ease all;	
+}
+
+article:hover h3{
+	top: -15vw;
+}
+
+.projet{
 	overflow: hidden;
-}
-
-h1 {
-    font-family: 'Krona One', sans-serif;
-    color: white;
-    font-size: 3.5em;
-    line-height: 1.4em;
-    text-align: center;
-}
-
-.texte-intro {
-    display: flex;
-    width: 50vw;
-    height: 50vh;
-    margin: 25vh 25vw;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-index-attente {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	-o-object-fit: cover;
+	height: 28vw;
 }
