@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+/* GLOBAL */
+
+html,
+body {
+	cursor: crosshair;
+}
+
+body {
+	overflow-x: hidden;
+	color: rgb(0, 58, 230);
+	background-color: rgb(230, 230, 230);
+}
+
+h1 {
+	font-family: "Krona One", sans-serif;
+	font-size: 3vw;
+}
+
+h2 {
+	font-family: "Krona One", sans-serif;
+	font-size: 3vw;
+}
+
+li {
+	font-family: "Krona One", sans-serif;
+}
+
+p {
+	font-family: "Work Sans";
+	font-size: 1.2vw;
+	line-height: 1.2em;
+	color: rgb(0, 58, 230);
+}
+
+a,
+a:hover {
+	color: rgb(0, 58, 230);
+}
+
+a,
+.boite-projets,
+.boite-faq,
+.boite-dsaadnmade {
+	cursor: pointer;
+}
+
+/* HEADER */
+
+.boite-header {
+	position: fixed;
+	top: 0px;
+	background-color: rgb(230, 230, 230);
+}
+
+/* NAVIGATION */
+
+.boite-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.4vw 1.2vw;
+	border-bottom: 2px solid rgb(0, 58, 230);
+}
+
+.boite-logo {
+	display: flex;
+}
+
+.boite-logo img {
+	width: 13vw;
+	margin-right: 2vw;
+}
+
+.boite-reseaux {
+	display: flex;
+	width: 10vw;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 1vw;
+}
+
+.logo-insta {
+	height: 1.6vw;
+}
+
+.logo-face {
+	height: 1.5vw;
+}
+
+.logo-yout {
+	height: 1.4vw;
+}
+
+.logo-vimeo {
+	height: 1.4vw;
+}
+
+/* REUNION */
+
+.boite-globale-reunion {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	border-bottom: 2px solid rgb(0, 58, 230);
+}
+
+[class*="boite-reunion-"] {
+	display: flex;
+	align-items: center;
+	padding: 1vw 0vw 1vw 0vw;
+	height: 4vw;
+}
+
+[class*="boite-reunion-"]:hover {
+	background-color: rgb(0, 58, 230);
+}
+
+[class*="boite-reunion-"]:hover h2,
+[class*="boite-reunion-"]:hover p {
+	color: rgb(230, 230, 230);
+}
+
+[class*="boite-reunion-"] h2,
+.boite-reunion-05 img {
+	margin: 0vw 1vw;
+}
+
+.boite-reunion-05 img {
+	width: 3.4vw;
+}
+
+.boite-reunion-01,
+.boite-reunion-02,
+.boite-reunion-03,
+.boite-reunion-04 {
+	border-right: 2px solid rgb(0, 58, 230);
+}
+
+/* ELEMENTS */
+
+.boite-elements {
+	margin-top: 13vw;
+}
+
+.boite-video-present {
+	height: 34vw;
+	padding: 1vw 0vw 2vw 0vw;
+	border-bottom: 2px solid rgb(0, 58, 230);
+}
+
+.video-present {
+	width: 60vw;
+	height: 34vw;
+	margin: auto;
+}
+
+.video-present iframe {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	-o-object-fit: cover;
+}
+
+.boite-projets,
+.boite-faq,
+.boite-dsaadnmade {
+	width: 100vw;
+	height: 4vw;
+	padding: 1vw;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid rgb(0, 58, 230);
+}
+
+.boite-projets h2,
+.boite-faq h2,
+.boite-dsaadnmade h2 {
+	margin-left: 2vw;
+	transition: margin-left ease-in-out 0.4s;
+}
+
+.boite-projets:hover h2,
+.boite-faq:hover h2,
+.boite-dsaadnmade:hover h2 {
+	margin-left: 0.4vw;
+	transition: margin-left ease-in-out 0.3s;
+}
+
+.fleche-text {
+	width: 2.6vw;
+	margin-left: 0vw;
+	transition: margin-left ease-in-out 0.4s;
+}
+
+.boite-projets:hover .fleche-text,
+.boite-faq:hover .fleche-text,
+.boite-dsaadnmade:hover .fleche-text {
+	margin-left: 0.8vw;
+	transition: margin-left ease-in-out 0.3s;
+}
+
+footer {
+	height: 2vw;
+	padding: 1vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
