@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+/*PROJETS*/
+
+.boite-global{
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+body{
+overflow-x: hidden;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	height: auto;
+}
+
+.projet article{	
+	height: 300px;
+	background-color: white;
+	border-top: 2px solid #003ae6;	
+	position: relative;
+	top: 0px;
+	right: 0px;
+	text-align: left;
+	padding:5%;
+	padding-right: 10%;
+	transition: 1s ease all;
+	color: #003ae6;
+}
+
+h3{
+font-family: "Krona One";
+font-size: 2vw;
+padding-bottom: 2%;
+line-height: normal;
+color: #003ae6;
+}
+
+p{
+	font-family: "Work Sans";
+	font-size: 1.2vw;
+	line-height: normal;
+}
+
+.projet:hover article{
+	top: -13vw;
+}
+
+.projet{
+	overflow: hidden;
+	height: 28vw;
+}
+
+.projet iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+a{
+text-decoration: none;
+}
+
+/*PORTFOLIOS*/
+
+h1{
+	font-family:"Krona One";
+	font-size: 3vw;
+	color: #003ae6;
+}
+
+.folios {
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	border-top: 2px solid #003ae6;
+	border-bottom: 2px solid #003ae6;
+}
+
+.promo{
+  padding: 1vw;
+}
+
+.promo-dnmade-2{
+	border-right: 2px solid #003ae6;
+}
+
+.promo-dnmade-3{
+	border-right: 2px solid #003ae6;
+}
+
+h5{
+	font-family: "Work Sans";
+	font-size: 1.4vw;
+	line-height: normal;
+}
