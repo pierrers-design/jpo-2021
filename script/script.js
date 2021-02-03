@@ -13,6 +13,13 @@ window.transitionToPage = function (href) {
 /*Apparition de la page après timer précédent*/
 document.addEventListener("DOMContentLoaded", function (event) {
 	anime({
+		targets: ".svg-chargement",
+		opacity: 0,
+		duration: 1000,
+		delay: 1700,
+		easing: "easeInOutCubic",
+	});
+	anime({
 		targets: ".svg-chargement-01",
 		translateX: -650,
 		translateY: 600,
