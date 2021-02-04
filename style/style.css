@@ -13,6 +13,7 @@
 html,
 body {
 	cursor: crosshair;
+	font-family: "Krona One";
 }
 
 body {
@@ -60,6 +61,10 @@ a,
 .section-faq,
 .section-dsaa-dnmade {
 	cursor: pointer;
+}
+
+img {
+	object-fit: fill;
 }
 
 /* CHARGEMENT DE LA PAGE */
@@ -191,7 +196,7 @@ a,
 	top: 10vh;
 }
 
-/* HEADER **************************/
+/* HEADER */
 
 header {
 	position: fixed;
@@ -200,7 +205,7 @@ header {
 	background-color: var(--grey-theme);
 }
 
-/* NAVIGATION ***********************/
+/* NAVIGATION */
 
 .boite-nav {
 	display: flex;
@@ -283,13 +288,13 @@ header {
 	border-right: 2px solid var(--blue-theme);
 }
 
-/* CONTENEUR GLOBAL *******************/
+/* CONTENEUR GLOBAL */
 
 .conteneur-global {
 	margin-top: 12vw;
 }
 
-/* INDEX *****************************/
+/* INDEX */
 
 .boite-video-present {
 	height: 34vw;
@@ -312,7 +317,7 @@ header {
 
 .section-projet,
 .section-faq,
-.boite-dsaa-dnmade{
+.section-dsaa-dnmade {
 	width: 100vw;
 	height: 4vw;
 	padding: 1vw;
@@ -348,7 +353,7 @@ header {
 	transition: margin-left ease-in-out 0.3s;
 }
 
-/* FAQ **************************/
+/* FAQ */
 
 /* MENU DEROULANT */
 
@@ -360,50 +365,6 @@ header {
 	padding: 1vw;
 	border-bottom: 2px solid var(--blue-theme);
 }
-
-
-.titre-section-dsaa{
-
-	display: flex;
-	
-}
-
-
-/*.boite-dsaa-dnmade{
-	
-	width:100vw;
-
-}
-
-.boite-dsaa-dnmade p{
-	
-	width:100vw;
-	display: flex;
-}
-
-
-.section-dsaa-dnmade{
-
-	width:100vw;
-	height: 4vw;
-	padding: 1vw;
-	display: flex;
-
-	
-
-}
-
-.boite-dsaa-dnmade:hover{
-
-	width:100vw;
-	height: 8vw;
-	
-
-
-}
-
-
-*/
 
 .conteneur-faq:hover {
 	transition: height 0.6s ease-in-out;
@@ -439,7 +400,7 @@ header {
 	margin-left: 1vw;
 }
 
-/* REGLAGES DES QUESTIONS ***********/
+/* REGLAGES DES QUESTIONS */
 
 .question-01,
 .question-02,
@@ -483,7 +444,7 @@ header {
 	height: 6vw;
 }
 
-/* PROJET *************************/
+/* PROJET */
 
 .boite-projet {
 	width: 100vw;
@@ -493,17 +454,15 @@ header {
 	border-bottom: 2px solid var(--blue-theme);
 }
 
-img {
+.frame-1 img {
 	width: 100%;
 	height: 100%;
-	object-fit: fill;
-	height: auto;
 }
 
 .boite-description {
 	height: 15vw;
 	position: relative;
-	top: 0vw;
+	top: 1vw;
 	padding: 1vw;
 	transition: top 0.6s ease-in-out;
 	background-color: var(--grey-theme);
@@ -530,7 +489,11 @@ img {
 	-o-object-fit: cover;
 }
 
-/*PORTFOLIOS**********************/
+.frame-1 img {
+	top: 1vw;
+}
+
+/*PORTFOLIOS*/
 
 .titre-portfolio {
 	padding: 1.4vw 1vw;
@@ -561,7 +524,7 @@ img {
 	border-right: 2px solid var(--blue-theme);
 }
 
-/* FOOTER *************************/
+/* FOOTER */
 
 footer {
 	height: 2vw;

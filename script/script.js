@@ -157,6 +157,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	});
 });
 
-/* Mouvement hover sur un lien */
+/*************************************************/
+/* FancyBox seulement bouton fermer visible / click pour zoomer */
 
-
+$("[data-fancybox]").fancybox({
+	clickContent: "zoom",
+	buttons: ["close"],
+	protect: true,
+});
