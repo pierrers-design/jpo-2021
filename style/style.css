@@ -20,6 +20,7 @@ body {
 	overflow-x: hidden;
 	color: var(--blue-theme);
 	background-color: var(--grey-theme);
+	border-color: var(--blue-theme);
 }
 
 h1 {
@@ -36,7 +37,6 @@ h3 {
 	font-family: "Krona One";
 	font-size: 2vw;
 	line-height: 1.4em;
-	color: var(--blue-theme);
 }
 
 li {
@@ -47,19 +47,17 @@ p {
 	font-family: "Work Sans";
 	font-size: 1.2vw;
 	line-height: 1.2em;
-	color: var(--blue-theme);
 }
 
 a,
 a:hover {
-	color: var(--blue-theme);
 	text-decoration: none;
+	color: var(--blue-theme);
 }
 
 a,
 .section-projet,
-.section-faq,
-.section-dsaa-dnmade {
+.section-faq {
 	cursor: pointer;
 }
 
@@ -212,7 +210,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.4vw 1.2vw;
-	border-bottom: 2px solid var(--blue-theme);
+	border-bottom: 2px solid;
 }
 
 .boite-logo {
@@ -253,7 +251,7 @@ header {
 .boite-globale-reunion {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	border-bottom: 2px solid var(--blue-theme);
+	border-bottom: 2px solid;
 }
 
 [class*="boite-reunion-"] {
@@ -285,7 +283,7 @@ header {
 .boite-reunion-02,
 .boite-reunion-03,
 .boite-reunion-04 {
-	border-right: 2px solid var(--blue-theme);
+	border-right: 2px solid;
 }
 
 /* CONTENEUR GLOBAL */
@@ -299,7 +297,7 @@ header {
 .boite-video-present {
 	height: 34vw;
 	padding: 1vw 0vw 2vw 0vw;
-	border-bottom: 2px solid var(--blue-theme);
+	border-bottom: 2px solid;
 }
 
 .video-present {
@@ -316,26 +314,23 @@ header {
 }
 
 .section-projet,
-.section-faq,
-.section-dsaa-dnmade {
+.section-faq {
 	width: 100vw;
 	height: 4vw;
 	padding: 1vw;
 	display: flex;
 	align-items: center;
-	border-bottom: 2px solid var(--blue-theme);
+	border-bottom: 2px solid;
 }
 
 .section-projet h2,
-.section-faq h2,
-.section-dsaa-dnmade h2 {
+.section-faq h2 {
 	margin-left: 2vw;
 	transition: margin-left ease-in-out 0.4s;
 }
 
 .section-projet:hover h2,
-.section-faq:hover h2,
-.section-dsaa-dnmade:hover h2 {
+.section-faq:hover h2 {
 	margin-left: 0.4vw;
 	transition: margin-left ease-in-out 0.3s;
 }
@@ -353,17 +348,60 @@ header {
 	transition: margin-left ease-in-out 0.3s;
 }
 
+.fleche-text-faq {
+	width: 2.6vw;
+	margin-left: 0vw;
+	rotate: 90deg;
+	transition: rotate 0.8s ease-in-out;
+}
+
+.conteneur-dsaa-dnmade {
+	width: 100vw;
+	overflow: hidden;
+	transition: height 0.8s ease-in-out;
+	height: 3vw;
+	padding: 1.5vw 1vw;
+	border-bottom: 2px solid;
+}
+
+.conteneur-dsaa-dnmade:hover {
+	height: 11vw;
+	transition: height 0.6s ease-in-out;
+}
+
+.dsaa-dnmade {
+	display: flex;
+	align-items: center;
+}
+
+.dsaa-dnmade h2 {
+	margin-left: 2vw;
+}
+
+.boite-dsaa-dnmade p {
+	margin: 2vw 4.6vw;
+}
+
+.boite-dsaa-dnmade a {
+	font-family: "Krona One";
+}
+
+.conteneur-dsaa-dnmade:hover .fleche-text-faq {
+	rotate: -90deg;
+	transition: rotate 0.6s ease-in-out;
+}
+
 /* FAQ */
 
 /* MENU DEROULANT */
 
 .conteneur-faq {
 	width: 100vw;
-	overflow-y: hidden;
+	overflow: hidden;
 	height: 1vw;
 	transition: height 0.8s ease-in-out;
 	padding: 1vw;
-	border-bottom: 2px solid var(--blue-theme);
+	border-bottom: 2px solid;
 }
 
 .conteneur-faq:hover {
@@ -460,6 +498,7 @@ header {
 }
 
 .boite-description {
+	pointer-events: none;
 	height: 15vw;
 	position: relative;
 	top: 1vw;
