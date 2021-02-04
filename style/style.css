@@ -424,8 +424,9 @@ header {
 }
 
 .boite-question-reponse p {
-	width: 50vw;
+	width: 40vw;
 	margin-left: 2.8vw;
+	margin-right: 1vw;
 }
 
 .boite-question {
@@ -438,6 +439,34 @@ header {
 	margin-left: 1vw;
 }
 
+.boite-reponse {
+	width: 100vw;
+	display: flex;
+}
+
+/* IMAGES QUESTIONS */
+
+.image-question{
+width: 100vw;
+height:30vw;
+display:flex;
+justify-content: center;
+
+}
+
+.image-question picture{
+width: 50vw;
+}
+
+
+/* INTERVIEW QUESTIONS */
+
+.boite-question-reponse iframe{
+width:80vw;
+height: 33.5vw;
+margin:0vw 8.2vw;
+}
+
 /* REGLAGES DES QUESTIONS */
 
 .question-01,
@@ -448,39 +477,60 @@ header {
 .question-06,
 .question-07,
 .question-08,
-.question-09 {
+.question-09,
+.question-10,
+.question-11,
+.question-12,
+.question-20{
 	height: 2.8vw;
 }
 
-.question-02:hover {
-	height: 20.5vw;
+.question-20:hover {
+	height: 48vw;
 }
 
-.question-09:hover {
-	height: 13.5vw;
-}
-
-.question-08:hover {
-	height: 12vw;
+.question-10:hover,
+.question-11:hover,
+.question-12:hover{
+	height:39vw;
 }
 
 .question-01:hover {
-	height: 10.5vw;
+	height: 10vw;
 }
 
-.question-03:hover,
-.question-06:hover {
-	height: 9vw;
+.question-02:hover {
+	height: 23vw;
+}
+
+.question-03:hover{
+	height: 10vw;
 }
 
 .question-04:hover {
-	height: 7.5vw;
+	height: 8.5vw;
 }
 
-.question-05:hover,
-.question-07:hover {
-	height: 6vw;
+.question-05:hover{
+	height: 7vw;
 }
+
+.question-06:hover {
+	height: 8.5vw;
+}
+
+.question-07:hover {
+	height:6vw;
+}
+
+.question-08:hover {
+	height: 13vw;
+}
+
+.question-09:hover {
+	height: 14.5vw;
+}
+
 
 /* PROJET */
 
