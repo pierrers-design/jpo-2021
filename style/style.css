@@ -82,6 +82,11 @@ a,
 	cursor: pointer;
 }
 
+.partie-faq,
+.partie-interviews {
+	cursor: crosshair;
+}
+
 img {
 	object-fit: fill;
 }
@@ -500,6 +505,7 @@ header {
 	display: flex;
 }
 
+.partie-interviews,
 .question-10,
 .question-11,
 .question-12 {
@@ -556,8 +562,15 @@ header {
 .question-12,
 .question-13,
 .question-14,
-.question-15 {
+.question-15,
+.partie-interviews,
+.partie-faq {
 	height: 2.8vw;
+}
+
+.partie-interviews,
+.partie-faq {
+	margin-left: -1vw;
 }
 
 /* PROJET */
