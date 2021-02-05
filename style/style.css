@@ -12,14 +12,14 @@
 }
 
 * {
-	scrollbar-color: var(--blue-theme) var(--grey-theme);
+	scrollbar-color: var(--blue-theme) var(--grey-dark-theme);
 	scrollbar-width: thin;
 }
 ::-webkit-scrollbar {
 	width: 0.4vw;
 }
 ::-webkit-scrollbar-track {
-	background: var(--grey-theme);
+	background: var(--grey-dark-theme);
 }
 ::-webkit-scrollbar-thumb {
 	background: var(--blue-theme);
@@ -508,11 +508,13 @@ header {
 	background-color: var(--blue-theme);
 }
 
-.boite-question svg {
+[class*="svg-play-"] {
 	width: 2vw;
 	fill: none;
 	stroke: var(--grey-theme);
 	stroke-width: 66px;
+	transform: scale(1);
+	transition: transform 0.2s ease-in-out;
 }
 
 /* IMAGES QUESTIONS */

@@ -283,11 +283,17 @@ var open10 = true;
 $(".question-10").click(function () {
 	if (open10 == true) {
 		$(".question-10").css("height", "39vw");
-		$(".fleche-question-faq-10").css("transform", "rotate(-90deg)");
+		$(".svg-play-10").css("transform", "scale(0.8)");
+		setTimeout(function () {
+			$(".svg-play-10").css("transform", "scale(1)");
+		}, 200);
 		open10 = false;
 	} else if (open10 == false) {
 		$(".question-10").css("height", "2.8vw");
-		$(".fleche-question-faq-10").css("transform", "rotate(90deg)");
+		$(".svg-play-10").css("transform", "scale(0.8)");
+		setTimeout(function () {
+			$(".svg-play-10").css("transform", "scale(1)");
+		}, 200);
 		open10 = true;
 	}
 });
@@ -296,11 +302,17 @@ var open11 = true;
 $(".question-11").click(function () {
 	if (open11 == true) {
 		$(".question-11").css("height", "39vw");
-		$(".fleche-question-faq-11").css("transform", "rotate(-90deg)");
+		$(".svg-play-11").css("transform", "scale(0.8)");
+		setTimeout(function () {
+			$(".svg-play-11").css("transform", "scale(1)");
+		}, 200);
 		open11 = false;
 	} else if (open11 == false) {
 		$(".question-11").css("height", "2.8vw");
-		$(".fleche-question-faq-11").css("transform", "rotate(90deg)");
+		$(".svg-play-11").css("transform", "scale(0.8)");
+		setTimeout(function () {
+			$(".svg-play-11").css("transform", "scale(1)");
+		}, 200);
 		open11 = true;
 	}
 });
@@ -309,11 +321,17 @@ var open12 = true;
 $(".question-12").click(function () {
 	if (open12 == true) {
 		$(".question-12").css("height", "39vw");
-		$(".fleche-question-faq-12").css("transform", "rotate(-90deg)");
+		$(".svg-play-12").css("transform", "scale(0.8)");
+		setTimeout(function () {
+			$(".svg-play-12").css("transform", "scale(1)");
+		}, 200);
 		open12 = false;
 	} else if (open12 == false) {
 		$(".question-12").css("height", "2.8vw");
-		$(".fleche-question-faq-12").css("transform", "rotate(90deg)");
+		$(".svg-play-12").css("transform", "scale(0.8)");
+		setTimeout(function () {
+			$(".svg-play-12").css("transform", "scale(1)");
+		}, 200);
 		open12 = true;
 	}
 });
