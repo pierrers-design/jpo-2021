@@ -344,6 +344,19 @@ $(".question-14").click(function () {
 	}
 });
 
+var open15 = true;
+$(".question-15").click(function () {
+	if (open15 == true) {
+		$(".question-15").css("height", "26.5vw");
+		$(".fleche-question-faq-15").css("rotate", "-90deg");
+		open15 = false;
+	} else if (open15 == false) {
+		$(".question-15").css("height", "2.8vw");
+		$(".fleche-question-faq-15").css("rotate", "90deg");
+		open15 = true;
+	}
+});
+
 var openindex = true;
 $(".conteneur-dsaa-dnmade").click(function () {
 	if (openindex == true) {

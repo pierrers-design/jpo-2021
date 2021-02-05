@@ -11,10 +11,28 @@
 	--grey-dark-theme: rgb(215, 215, 215);
 }
 
+* {
+	scrollbar-color: var(--blue-theme) var(--grey-theme);
+	scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+	width: 0.4vw;
+}
+::-webkit-scrollbar-track {
+	background: var(--grey-theme);
+}
+::-webkit-scrollbar-thumb {
+	background: var(--blue-theme);
+}
+
 html,
-body {
+body,
+.fancybox-spaceball,
+.theme-switch,
+#theme-switch {
 	cursor: crosshair;
 	font-family: "Krona One";
+	cursor: crosshair;
 }
 
 body {
@@ -66,6 +84,10 @@ a,
 
 img {
 	object-fit: fill;
+}
+
+em {
+	font-weight: 600;
 }
 
 /* CHARGEMENT DE LA PAGE */
@@ -484,9 +506,9 @@ header {
 /* INTERVIEW QUESTIONS */
 
 .boite-question-reponse iframe {
-	width: 80vw;
+	width: 40vw;
 	height: 33.5vw;
-	margin: 0vw 8.2vw;
+	margin: 0vw 28vw;
 }
 
 /* REGLAGES DES QUESTIONS */
@@ -505,7 +527,8 @@ header {
 .question-11,
 .question-12,
 .question-13,
-.question-14 {
+.question-14,
+.question-15 {
 	height: 2.8vw;
 }
 
@@ -539,9 +562,9 @@ header {
 	margin-bottom: 1vw;
 }
 
-/*.projet:hover .boite-description {
+.projet:hover .boite-description {
 	top: -15vw;
-}*/
+}
 
 .projet {
 	overflow: hidden;
