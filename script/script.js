@@ -321,7 +321,7 @@ $(".question-12").click(function () {
 var open13 = true;
 $(".question-13").click(function () {
 	if (open13 == true) {
-		$(".question-13").css("height", "41vw");
+		$(".question-13").css("height", "35.5vw");
 		$(".fleche-question-faq-13").css("transform", "rotate(-90deg)");
 		open13 = false;
 	} else if (open13 == false) {

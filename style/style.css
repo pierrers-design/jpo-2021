@@ -90,6 +90,10 @@ em {
 	font-weight: 600;
 }
 
+header {
+	width: 100vw;
+}
+
 /* CHARGEMENT DE LA PAGE */
 
 .svg-chargement {
@@ -513,20 +517,21 @@ header {
 
 /* IMAGES QUESTIONS */
 
-.image-question {
+.video-question {
 	width: 100vw;
 	height: 30vw;
 	display: flex;
 	justify-content: center;
 }
 
-.image-question picture {
+.video-question iframe {
+	width: 60vw;
 	height: 30vw;
 }
 
 /* INTERVIEW QUESTIONS */
 
-.boite-question-reponse iframe {
+.video-interview {
 	width: 40vw;
 	height: 33.5vw;
 	margin: 0vw 28vw;
