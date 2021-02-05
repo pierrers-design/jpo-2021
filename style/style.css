@@ -392,25 +392,28 @@ header {
 .fleche-text-faq {
 	width: 2.6vw;
 	margin-left: 0vw;
-	rotate: 90deg;
-	transition: rotate 0.4s ease-in-out;
+	transform: rotate(90deg);
+	transition: transform 0.4s ease-in-out;
 }
 
 .conteneur-dsaa-dnmade {
 	width: 100vw;
 	overflow: hidden;
 	transition: height 0.4s ease-in-out;
-	height: 3vw;
 	padding: 1.5vw 1vw;
+	border-bottom: 2px solid;
+	height: 3vw;
+}
+
+.conteneur-conference {
+	width: 100vw;
+	overflow: hidden;
+	transition: height 0.4s ease-in-out;
 	border-bottom: 2px solid;
 }
 
-/*.conteneur-dsaa-dnmade:hover {
-	height: 11vw;
-	transition: height 0.6s ease-in-out;
-}*/
-
-.dsaa-dnmade {
+.dsaa-dnmade,
+.conference {
 	display: flex;
 	align-items: center;
 }
@@ -419,12 +422,30 @@ header {
 	margin-left: 2vw;
 }
 
+.conference h2 {
+	width: 100%;
+	padding: 1.5vw 5.5vw;
+	border-bottom: 2px solid;
+}
+
+.lien-conference-01,
+.lien-conference-02,
+.lien-conference-03 {
+	border-right: 2px solid;
+}
+
 .boite-dsaa-dnmade p {
 	margin: 2vw 4.6vw;
 }
 
-.boite-dsaa-dnmade a {
-	font-family: "Krona One";
+.boite-conference p {
+	margin: 2vw 3.5vw;
+}
+
+.identifiants-conference {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 /* FAQ */
@@ -446,8 +467,8 @@ header {
 
 [class*="fleche-question-faq-"] {
 	width: 1.8vw;
-	rotate: 90deg;
-	transition: rotate 0.6s ease-in-out;
+	transform: rotate(90deg);
+	transition: transform 0.6s ease-in-out;
 }
 
 .boite-question-reponse {
@@ -549,7 +570,7 @@ header {
 
 .boite-description {
 	pointer-events: none;
-	height: 15vw;
+	height: 11.5vw;
 	position: relative;
 	top: 1vw;
 	padding: 1vw;
@@ -563,7 +584,7 @@ header {
 }
 
 .projet:hover .boite-description {
-	top: -15vw;
+	top: -11.5vw;
 }
 
 .projet {
