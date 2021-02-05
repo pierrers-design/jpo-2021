@@ -539,13 +539,14 @@ header {
 	margin-bottom: 1vw;
 }
 
-.projet:hover .boite-description {
+/*.projet:hover .boite-description {
 	top: -15vw;
-}
+}*/
 
 .projet {
 	overflow: hidden;
 	height: 28vw;
+	width: 100%;
 }
 
 .projet iframe {
