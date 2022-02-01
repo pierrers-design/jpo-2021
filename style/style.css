@@ -6,8 +6,8 @@
 /* GLOBAL */
 
 :root {
-	--blue-theme: rgb(0, 58, 230);
-	--grey-theme: rgb(230, 230, 230);
+	--blue-theme: rgb(255, 74, 1);
+	--grey-theme: rgb(237, 245, 255);
 	--grey-dark-theme: rgb(215, 215, 215);
 }
 
@@ -243,7 +243,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1.4vw 1.2vw;
+	padding: 1.4vw 2.2vw;
 	border-bottom: 2px solid;
 }
 
@@ -579,6 +579,7 @@ header {
 	width: 100vw;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
 	grid-template-rows: auto;
 	border-bottom: 2px solid;
 }
@@ -627,7 +628,7 @@ header {
 /*PORTFOLIOS*/
 
 .titre-portfolio {
-	padding: 1.4vw 1vw;
+	padding: 1.4vw 2vw;
 }
 
 .folios {
@@ -644,7 +645,11 @@ header {
 }
 
 .promo {
-	padding: 1vw;
+	padding: 2vw;
+}
+
+.promo a{
+	display: inline;
 }
 
 .promo-dnmade-2 {
@@ -659,7 +664,7 @@ header {
 
 footer {
 	height: 2vw;
-	padding: 1vw;
+	padding: 2vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
