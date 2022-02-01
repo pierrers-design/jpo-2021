@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Neue Haas Grotesk ';
+    src: local('Neue Haas Grotesk  Roman'), local('Neue-Haas-Grotesk--Roman'),
+        url('NeueHaasDisplay-Roman.woff2') format('woff2'),
+        url('NeueHaasDisplay-Roman.woff') format('woff'),
+        url('NeueHaasDisplay-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+ font-stretch: 1% 500%; /* Required by Chrome */
+
+  }

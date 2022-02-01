@@ -1,0 +1,130 @@
+.conteneur-global {
+	width: 640px;
+
+	margin: auto;
+	background-color: black;
+}
+
+body {
+	background-color: rgb(20, 20, 20);
+}
+
+#corps{
+	transform: scale(0.5) translate(0%, -50%);
+
+}
+
+#retour{
+	position: fixed;
+	top: 0px;
+	transform: rotate(180deg)scale(0.5) ;
+}
+sup {
+	vertical-align: super;
+	font-size: 70%;
+}
+
+header {
+	margin: 0 5%;
+	width: 90%;
+}
+
+img {
+  cursor: pointer;
+  width: 4vw;
+  height: 4vw;
+  transition: 0.1s ease-in-out;
+}
+
+img:hover {
+  width: 4.5vw;
+  height: 4.5vw;
+
+  transition: 0.1s ease-in-out;
+}
+
+.paragraphe {
+	margin-top: 10px;
+}
+
+.BlocTexte {
+	margin: auto;
+}
+
+h1 {
+	font-family: "Lekton", sans-serif;
+	font-size: 8em;
+	text-align: 1px;
+	padding-top: 0em;
+/*	transform: rotate(-10deg);
+	opacity: 0.3;*/
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 40px;
+}
+
+.textdebut {
+	font-family: "Quicksand", sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1.6em;
+	line-height: 1.2em;
+		margin:-1.5em auto 0em;
+	width: 90%;
+}
+
+strong {
+	font-size: 1.5em;
+}
+
+.un {
+	display: inline-block;
+	margin: 0 5%;
+	width: 90%;
+}
+
+.titrenoms {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 160px;
+	border-bottom: 3px solid white;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+h2 {
+	color: white;
+	font-family: "Lekton", sans-serif;
+	font-size: 2em;
+	line-height: 1.8em;
+}
+
+.groupe01 {
+	color: white;
+	font-family: "Quicksand", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+footer {
+	margin: 5%;
+	width: 90%;
+	height: 110px;
+}
+
+.lien_footer {
+	color: white;
+}
+
+.lien_footer:hover {
+	color: rgb(105, 105, 105);
+}
+
+footer p {
+	font-family: "Lekton", sans-serif;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,263 @@
+body {
+  cursor: url(../import/curseur.png), auto;
+  /*cursor: url(../import/curseur.png), auto;*/
+  background: rgb(85, 0, 45);
+  overflow-x: hidden;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgba(85, 0, 45, 1) 0%,
+    rgba(128, 0, 222, 1) 20%,
+    rgba(0, 129, 251, 1) 49%,
+    rgba(184, 61, 0, 1) 82%,
+    rgba(255, 29, 0, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+#noise {
+  pointer-events: none;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url(../import/noise.gif);
+  opacity: 0.15;
+  mix-blend-mode: overlay;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #55002d;
+}
+
+#conteneur {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 18fr 1fr;
+  background-size: 600px;
+  background-position: bottom -100px left;
+  background-repeat: no-repeat;
+  background-image: url(../import/transition.png);
+}
+
+article {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.haut {
+  height: 1.5em;
+}
+
+.bas {
+  height: 1em;
+}
+
+#boite {
+  position: relative;
+}
+
+.carre0 {
+  z-index: 4;
+  position: absolute;
+  left: -30px;
+  top: 40px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#one {
+  z-index: 5;
+  border: 1px solid white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.carre2 {
+  z-index: 3;
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.carre3 {
+  z-index: 2;
+  position: absolute;
+  left: 310px;
+  top: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.carre4 {
+  z-index: 1;
+  position: absolute;
+  left: 390px;
+  top: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+h2,
+h3,
+h4 {
+  position: relative;
+  font-family: "Neue Haas Grotesk ";
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 7em;
+  color: white;
+  transform: scaleX(1.09);
+  font-stretch: 100%;
+  z-index: 1000;
+}
+
+h1 {
+  z-index: 8;
+  position: relative;
+  font-family: "Neue Haas Grotesk ";
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 7em;
+  color: white;
+  transform: scaleX(1.09);
+  font-stretch: 100%;
+  margin-bottom: -20px;
+  margin-left: -1em;
+}
+
+#smile {
+  background-image: url(../import/smile.png);
+  background-repeat: no-repeat;
+  background-size: 20px 26px;
+  background-position: right 55% bottom 55%;
+}
+
+h3 {
+  margin-left: 0.8em;
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.fleche {
+  width: 70px;
+}
+
+.souligne {
+  border-bottom: 1px solid white;
+  margin-bottom: -10px;
+}
+
+h2 {
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+
+ul {
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  justify-content: flex-end;
+}
+
+ul li {
+  height: 33px;
+  margin-right: 2em;
+}
+
+ul li img {
+  height: 100%;
+}
+
+#logodsaa {
+  height: 75%;
+  position: relative;
+  top: 9px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  h2,
+  h3 {
+    width: 100%;
+    font-size: 3.4em;
+  }
+
+  #conteneur {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    background-size: 450px;
+    background-position: bottom -50px left -15px;
+    background-repeat: no-repeat;
+    background-image: url(../import/transition.png);
+  }
+
+  #smile {
+    background-image: url(../import/smile.png);
+    background-repeat: no-repeat;
+    background-size: 10px 16px;
+    background-position: right 55% bottom 55%;
+  }
+
+  .haut {
+    height: 1.5em;
+  }
+
+  .bas {
+    height: 3em;
+  }
+
+  h1 {
+    font-family: "Neue Haas Grotesk ";
+    letter-spacing: 0.04em;
+    color: white;
+    transform: scaleX(1.12);
+    margin-left: -0.1em;
+    margin-top: 0.7em;
+    margin-bottom: -5px;
+    width: 90%;
+    font-size: 3.7em;
+  }
+
+  h3 {
+    margin-top: 1em;
+    margin-left: 0em;
+    width: 90%;
+  }
+  .fleche {
+    width: 35px;
+  }
+
+  h2 {
+    margin-top: 1em;
+    width: 90%;
+  }
+
+  .drag,
+  #one {
+    display: none;
+  }
+
+  ul li {
+    height: 25px;
+    margin-right: 1em;
+  }
+
+  #logodsaa {
+    height: 75%;
+    position: relative;
+    top: 6px;
+  }
+}
