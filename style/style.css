@@ -457,9 +457,20 @@ header {
 	justify-content: space-evenly;
 }
 
-/* FAQ */
+/* RECRUTEMENT */
 
 /* MENU DEROULANT */
+
+.conteneur-intro-recrutement {
+	height: 25vw;
+	display: flex;
+	align-items: center;
+}
+
+.conteneur-intro-recrutement p {
+	width: 50vw;
+	margin: 0 auto 5vw;
+}
 
 .conteneur-faq {
 	width: 100vw;
@@ -521,6 +532,20 @@ header {
 	stroke-width: 66px;
 	transform: scale(1);
 	transition: transform 0.2s ease-in-out;
+}
+
+.boite-parcoursup {
+	cursor: default;
+}
+
+.vers-parcoursup {
+	height: 2.8vw;
+}
+
+.vers-parcoursup a{
+	font-family: "Krona One";
+	font-size: 2vw;
+	line-height: 1.4em;
 }
 
 /* IMAGES QUESTIONS */

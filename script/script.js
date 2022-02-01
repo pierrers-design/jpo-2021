@@ -131,7 +131,7 @@ $(".question-09").click(function () {
 var open10 = true;
 $(".question-10").click(function () {
 	if (open10 == true) {
-		$(".question-10").css("height", "39vw");
+		$(".question-10").css("height", "13vw");
 		$(".svg-play-10").css("transform", "scale(0.8)");
 		setTimeout(function () {
 			$(".svg-play-10").css("transform", "scale(1)");
@@ -150,7 +150,7 @@ $(".question-10").click(function () {
 var open11 = true;
 $(".question-11").click(function () {
 	if (open11 == true) {
-		$(".question-11").css("height", "39vw");
+		$(".question-11").css("height", "25vw");
 		$(".svg-play-11").css("transform", "scale(0.8)");
 		setTimeout(function () {
 			$(".svg-play-11").css("transform", "scale(1)");
@@ -169,7 +169,7 @@ $(".question-11").click(function () {
 var open12 = true;
 $(".question-12").click(function () {
 	if (open12 == true) {
-		$(".question-12").css("height", "39vw");
+		$(".question-12").css("height", "9vw");
 		$(".svg-play-12").css("transform", "scale(0.8)");
 		setTimeout(function () {
 			$(".svg-play-12").css("transform", "scale(1)");
