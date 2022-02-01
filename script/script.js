@@ -237,6 +237,17 @@ $(".conteneur-dsaa-dnmade").click(function () {
 	}
 });
 
+var portfolios = true;
+$(".boite-portfolios").click(function () {
+	if (portfolios == true) {
+		$(".boite-portfolios").css("height", "35vw");
+		portfolios = false;
+	} else if (portfolios == false) {
+		$(".boite-portfolios").css("height", "6vw");
+		portfolios = true;
+	}
+});
+
 /*************************************************/
 /* FancyBox seulement bouton fermer visible / click pour zoomer */
 
