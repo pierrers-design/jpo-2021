@@ -243,11 +243,11 @@ var portfolios = true;
 $(".boite-portfolios").click(function () {
 	if (portfolios == true) {
 		$(".boite-portfolios").css("height", "35vw");
-		$(".fleche-text-portfolio").css("transform", "rotate(-90deg)");
+		$(".fleche-text-faq").css("transform", "rotate(-90deg)");
 		portfolios = false;
 	} else if (portfolios == false) {
 		$(".boite-portfolios").css("height", "6vw");
-		$(".fleche-text-portfolio").css("transform", "rotate(90deg)");
+		$(".fleche-text-faq").css("transform", "rotate(90deg)");
 		portfolios = true;
 	}
 });
