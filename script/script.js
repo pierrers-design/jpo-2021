@@ -225,13 +225,13 @@ $(".question-15").click(function () {
 });
 
 var opendsaadnmade = true;
-$(".conteneur-dsaa-dnmade").click(function () {
+$(".conteneur-infos-pratiques").click(function () {
 	if (opendsaadnmade == true) {
-		$(".conteneur-dsaa-dnmade").css("height", "11vw");
+		$(".conteneur-infos-pratiques").css("height", "15vw");
 		$(".fleche-text-faq").css("transform", "rotate(-90deg)");
 		opendsaadnmade = false;
 	} else if (opendsaadnmade == false) {
-		$(".conteneur-dsaa-dnmade").css("height", "3vw");
+		$(".conteneur-infos-pratiques").css("height", "3vw");
 		$(".fleche-text-faq").css("transform", "rotate(90deg)");
 		opendsaadnmade = true;
 	}
