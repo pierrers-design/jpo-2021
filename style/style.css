@@ -479,6 +479,12 @@ header {
 	transition: height 0.8s ease-in-out;
 	padding: 1vw;
 	border-bottom: 2px solid;
+	cursor: default;
+}
+
+.titre-faq {
+	border-top: solid var(--blue-theme);
+	height: 2.8vw;
 }
 
 .conteneur-faq:hover {
@@ -546,6 +552,10 @@ header {
 	font-family: "Krona One";
 	font-size: 2vw;
 	line-height: 1.4em;
+}
+
+.boite-parcoursup img{
+	transform: rotate(50deg);
 }
 
 /* IMAGES QUESTIONS */
