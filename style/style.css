@@ -781,3 +781,15 @@ footer {
 	width: 50vw;
 	margin: 0 auto 5vw;
 }
+
+
+.faq {
+	height: 3vw;
+	border: 2px solid var(--blue-theme);
+	margin-bottom: 3vw;
+}
+
+.questions {
+	border: none;
+	font-size: 1.5vw;
+}
