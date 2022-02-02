@@ -298,9 +298,6 @@ header {
   -ms-display: grid;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  /*width: 1150px;*/
-  /*height: 600px;*/
 }
 
 #lien-formation,
@@ -524,10 +521,9 @@ header {
 /* PROJET */
 
 .boite-projet {
-  width: calc(100% - 4px);
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
   border-bottom: 2px solid;
   margin: auto;
 }
@@ -564,7 +560,7 @@ header {
 }
 
 .projet:hover .boite-description {
-  top: -13vw;
+  top: -12vw;
 }
 
 /*PORTFOLIOS*/
