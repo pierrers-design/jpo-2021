@@ -500,7 +500,10 @@ header {
 
 .fleche-text-recru {
 	width: 1.8vw;
+	margin-left: 0vw;
+	margin-right: 1vw;
 	transform: rotate(90deg);
+	transition: transform 0.4s ease-in-out;
 }
 
 .boite-question-reponse {
@@ -548,6 +551,10 @@ header {
 
 .boite-parcoursup {
 	cursor: default;
+	width: 100%;
+	display: flex;
+	align-items: space-between;
+	border: 2px solid green;
 }
 
 .vers-parcoursup {
@@ -558,13 +565,21 @@ header {
 	font-family: "Krona One";
 	font-size: 2vw;
 	line-height: 1.4em;
+	margin-left: 0.3vw;
 }
 
 .boite-parcoursup img{
 	transform: rotate(0deg);
 	width: 1.8vw;
-	margin-right: 0.7vw;
+	margin-right: 0.3vw;
+	margin-left: 0vw;
 }
+
+.boite-parcoursup:hover {
+	align-items: center;
+}
+
+
 
 /* IMAGES QUESTIONS */
 
@@ -738,16 +753,6 @@ footer {
 .boite-360 {
 	height: 40vw;
 }
-
-/*.footer-360 {
-	position: absolute;
-	bottom: 0;
-	height: 2vw;
-	padding: 2vw;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}*/
 
 .text-360 {
 	margin: 2vw auto;

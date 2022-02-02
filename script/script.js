@@ -131,18 +131,12 @@ $(".question-09").click(function () {
 var open10 = true;
 $(".question-10").click(function () {
 	if (open10 == true) {
-		$(".question-10").css("height", "13vw");
-		$(".svg-play-10").css("transform", "scale(0.8)");
-		setTimeout(function () {
-			$(".svg-play-10").css("transform", "scale(1)");
-		}, 200);
+		$(".question-10").css("height", "18vw");
+		$(".fleche-text-recru10").css("transform", "rotate(-90deg)");
 		open10 = false;
 	} else if (open10 == false) {
 		$(".question-10").css("height", "2.8vw");
-		$(".svg-play-10").css("transform", "scale(0.8)");
-		setTimeout(function () {
-			$(".svg-play-10").css("transform", "scale(1)");
-		}, 200);
+		$(".fleche-text-recru10").css("transform", "rotate(90deg)");
 		open10 = true;
 	}
 });
@@ -150,18 +144,12 @@ $(".question-10").click(function () {
 var open11 = true;
 $(".question-11").click(function () {
 	if (open11 == true) {
-		$(".question-11").css("height", "25vw");
-		$(".svg-play-11").css("transform", "scale(0.8)");
-		setTimeout(function () {
-			$(".svg-play-11").css("transform", "scale(1)");
-		}, 200);
+		$(".question-11").css("height", "21vw");
+		$(".fleche-text-recru11").css("transform", "rotate(-90deg)");
 		open11 = false;
 	} else if (open11 == false) {
 		$(".question-11").css("height", "2.8vw");
-		$(".svg-play-11").css("transform", "scale(0.8)");
-		setTimeout(function () {
-			$(".svg-play-11").css("transform", "scale(1)");
-		}, 200);
+		$(".fleche-text-recru11").css("transform", "rotate(90deg)");
 		open11 = true;
 	}
 });
@@ -169,18 +157,12 @@ $(".question-11").click(function () {
 var open12 = true;
 $(".question-12").click(function () {
 	if (open12 == true) {
-		$(".question-12").css("height", "9vw");
-		$(".svg-play-12").css("transform", "scale(0.8)");
-		setTimeout(function () {
-			$(".svg-play-12").css("transform", "scale(1)");
-		}, 200);
+		$(".question-12").css("height", "41vw");
+		$(".fleche-text-recru12").css("transform", "rotate(-90deg)");
 		open12 = false;
 	} else if (open12 == false) {
 		$(".question-12").css("height", "2.8vw");
-		$(".svg-play-12").css("transform", "scale(0.8)");
-		setTimeout(function () {
-			$(".svg-play-12").css("transform", "scale(1)");
-		}, 200);
+		$(".fleche-text-recru12").css("transform", "rotate(90deg)");
 		open12 = true;
 	}
 });
