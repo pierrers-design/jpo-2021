@@ -771,7 +771,6 @@ footer {
 }
 
 .conteneur-intro-formation div {
-	border: 2px solid var(--blue-theme);
 	width: 50vw;
 	height: 25vw;
 	margin: 0 auto 3vw;
