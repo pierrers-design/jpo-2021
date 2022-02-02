@@ -569,7 +569,7 @@ header {
 }
 
 .boite-parcoursup img{
-	transform: rotate(0deg);
+	transform: rotate(-45deg);
 	width: 1.8vw;
 	margin-right: 0.4vw;
 	margin-left: 0vw;
@@ -782,6 +782,13 @@ footer {
 	margin: 0 auto 5vw;
 }
 
+.fleche-text-parcoursup {
+	width: 2.6vw;
+	margin-left: 0vw;
+	margin-right: 0.5vw;
+	transform: rotate(45deg);
+	transition: transform 0.4s ease-in-out;
+}
 
 .faq {
 	height: 3vw;
@@ -791,5 +798,12 @@ footer {
 
 .questions {
 	border: none;
-	font-size: 1.5vw;
+}
+
+.questions h3 {
+	font-size: 1.7vw;
+}
+
+.parcoursup-faq {
+	margin-top: 3vw;
 }
