@@ -222,7 +222,6 @@ $(".question-15").click(function () {
     $(".fleche-question-faq-15").css("transform", "rotate(90deg)");
     open15 = true;
   }
-<<<<<<< HEAD
 });
 
 var opendsaadnmade = true;
@@ -238,23 +237,6 @@ $(".conteneur-infos-pratiques").click(function () {
   }
 });
 
-=======
-});
-
-/*var opendsaadnmade = true;
-$(".conteneur-infos-pratiques").click(function () {
-  if (opendsaadnmade == true) {
-    $(".conteneur-infos-pratiques").css("height", "15vw");
-    $(".fleche-text-faq").css("transform", "rotate(-90deg)");
-    opendsaadnmade = false;
-  } else if (opendsaadnmade == false) {
-    $(".conteneur-infos-pratiques").css("height", "3vw");
-    $(".fleche-text-faq").css("transform", "rotate(90deg)");
-    opendsaadnmade = true;
-  }
-});*/
-
->>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
 var portfolios = true;
 $(".boite-portfolios").click(function () {
   if (portfolios == true) {
@@ -275,15 +257,4 @@ $("[data-fancybox]").fancybox({
   clickContent: "zoom",
   buttons: ["close"],
   protect: true,
-<<<<<<< HEAD
-=======
-  preload: false,
->>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
-});
-
-$(".vimeo").fancybox({
-width: 1920,
-height: 1080,
-type: 'iframe',
-fitToView : false,
 });
