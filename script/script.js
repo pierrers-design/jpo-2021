@@ -224,7 +224,7 @@ $(".question-15").click(function () {
   }
 });
 
-var opendsaadnmade = true;
+/*var opendsaadnmade = true;
 $(".conteneur-infos-pratiques").click(function () {
   if (opendsaadnmade == true) {
     $(".conteneur-infos-pratiques").css("height", "15vw");
@@ -235,7 +235,7 @@ $(".conteneur-infos-pratiques").click(function () {
     $(".fleche-text-faq").css("transform", "rotate(90deg)");
     opendsaadnmade = true;
   }
-});
+});*/
 
 var portfolios = true;
 $(".boite-portfolios").click(function () {
@@ -257,4 +257,12 @@ $("[data-fancybox]").fancybox({
   clickContent: "zoom",
   buttons: ["close"],
   protect: true,
+  preload: false,
+});
+
+$(".vimeo").fancybox({
+width: 1920,
+height: 1080,
+type: 'iframe',
+fitToView : false,
 });
