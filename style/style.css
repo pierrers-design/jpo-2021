@@ -219,7 +219,7 @@ header {
 /* CONTENEUR GLOBAL */
 
 .conteneur-global {
-  margin-top: 9vw;
+  margin-top: 6vw;
 }
 
 /* INDEX */
@@ -313,7 +313,7 @@ header {
   transition: height 0.4s ease-in-out;
   padding: 1.5vw 2.2vw;
   border-bottom: 2px solid;
-  height: 32vw;
+  height: min-content;
   cursor: crosshair;
 }
 
@@ -328,10 +328,6 @@ header {
 .conference {
   display: flex;
   align-items: center;
-}
-
-.infos-pratiques h2 {
-  /*margin-left: 2vw;*/
 }
 
 .conference h2 {
@@ -352,10 +348,10 @@ header {
 
 /*Integration carte Open Street Map: */
 #carte-osm {
-  margin-top: 2vw;
-  margin-left: -2.2vw;
+  margin: 2vw 0 1vw -2.2vw;
   width: 99.8%;
   height: 15vw;
+  filter: sepia(100%) hue-rotate(300deg);
 }
 
 small a {
