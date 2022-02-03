@@ -70,7 +70,11 @@ li {
 }
 
 p,
+<<<<<<< HEAD
 .typo-contact {
+=======
+.typo-contact, small a {
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
   font-family: "Work Sans";
   font-size: 1.2vw;
   line-height: 1.2em;
@@ -224,7 +228,11 @@ header {
 /* INDEX */
 
 .boite-video-present {
+<<<<<<< HEAD
   height: 50vw;
+=======
+  height: 40vw;
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
   padding: 1.5vw 0vw;
   border-bottom: 2px solid;
 }
@@ -235,9 +243,16 @@ header {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .boite-video-present h2 {
   text-align: center;
   padding-bottom: 1.5vw;
+=======
+.boite-video-present h3 {
+  text-align: center;
+ margin-top: 1.5vw;
+
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
 }
 
 .video-present iframe {
@@ -255,7 +270,11 @@ header {
 .section-faq {
   width: 100vw;
   height: 4vw;
+<<<<<<< HEAD
   padding: 1vw;
+=======
+  padding: 1vw 2.2vw;
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
   display: flex;
   align-items: center;
   border-bottom: 2px solid;
@@ -298,6 +317,7 @@ header {
   -ms-display: grid;
   display: grid;
   grid-template-columns: 50% 50%;
+<<<<<<< HEAD
 }
 
 #lien-formation,
@@ -305,13 +325,29 @@ header {
   border-right: solid 2px var(--primary-theme);
 }
 
+=======
+}
+
+#lien-formation,
+#lien-projets {
+  border-right: solid 2px var(--primary-theme);
+}
+
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
 .conteneur-infos-pratiques {
   width: 100vw;
   overflow: hidden;
   transition: height 0.4s ease-in-out;
+<<<<<<< HEAD
   padding: 1.5vw 1vw;
   border-bottom: 2px solid;
   height: 3vw;
+=======
+  padding: 1.5vw 2.2vw;
+  border-bottom: 2px solid;
+  height: 32vw;
+  cursor: crosshair;
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
 }
 
 .conteneur-conference {
@@ -328,7 +364,11 @@ header {
 }
 
 .infos-pratiques h2 {
+<<<<<<< HEAD
   margin-left: 2vw;
+=======
+  /*margin-left: 2vw;*/
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
 }
 
 .conference h2 {
@@ -341,11 +381,32 @@ header {
 .lien-conference-02,
 .lien-conference-03 {
   border-right: 2px solid;
+<<<<<<< HEAD
+}
+
+.boite-infos-pratiques p {
+  margin: 2vw 4.6vw;
+=======
 }
 
 .boite-infos-pratiques p {
   margin: 2vw 4.6vw;
 }
+
+/*Integration carte Open Street Map: */
+#carte-osm{
+	margin-top: 2vw;
+	margin-left: -2.2vw;
+	width: 99.8%;
+	height: 15vw;
+>>>>>>> parent of e3beef0 (Revert "Merge branch 'aurelien-dev'")
+}
+
+small a{
+	font-size: 1vw;
+}
+
+
 
 .boite-conference p {
   margin: 2vw 3.5vw;
