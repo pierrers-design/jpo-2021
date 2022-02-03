@@ -70,7 +70,8 @@ li {
 }
 
 p,
-.typo-contact {
+.typo-contact,
+small a {
   font-family: "Work Sans";
   font-size: 1.2vw;
   line-height: 1.2em;
@@ -224,7 +225,7 @@ header {
 /* INDEX */
 
 .boite-video-present {
-  height: 50vw;
+  height: 40vw;
   padding: 1.5vw 0vw;
   border-bottom: 2px solid;
 }
@@ -235,9 +236,9 @@ header {
   margin: auto;
 }
 
-.boite-video-present h2 {
+.boite-video-present h3 {
   text-align: center;
-  padding-bottom: 1.5vw;
+  margin-top: 1.5vw;
 }
 
 .video-present iframe {
@@ -255,7 +256,7 @@ header {
 .section-faq {
   width: 100vw;
   height: 4vw;
-  padding: 1vw;
+  padding: 1vw 2.2vw;
   display: flex;
   align-items: center;
   border-bottom: 2px solid;
@@ -289,6 +290,7 @@ header {
 .fleche-text-faq {
   width: 2.6vw;
   margin-left: 0vw;
+  margin-right: 1vw;
   transform: rotate(90deg);
   transition: transform 0.4s ease-in-out;
 }
@@ -309,9 +311,10 @@ header {
   width: 100vw;
   overflow: hidden;
   transition: height 0.4s ease-in-out;
-  padding: 1.5vw 1vw;
+  padding: 1.5vw 2.2vw;
   border-bottom: 2px solid;
-  height: 3vw;
+  height: min-content;
+  cursor: crosshair;
 }
 
 .conteneur-conference {
@@ -325,10 +328,6 @@ header {
 .conference {
   display: flex;
   align-items: center;
-}
-
-.infos-pratiques h2 {
-  margin-left: 2vw;
 }
 
 .conference h2 {
@@ -345,6 +344,18 @@ header {
 
 .boite-infos-pratiques p {
   margin: 2vw 4.6vw;
+}
+
+/*Integration carte Open Street Map: */
+#carte-osm {
+  margin: 2vw 0 1vw -2.2vw;
+  width: 99.8%;
+  height: 15vw;
+  filter: sepia(100%) hue-rotate(300deg);
+}
+
+small a {
+  font-size: 1vw;
 }
 
 .boite-conference p {
@@ -388,12 +399,13 @@ header {
   height: 1vw;
   transition: height 0.8s ease-in-out;
   padding: 1vw;
-  border-bottom: 2px solid;
+  padding-left: 2.2vw;
+  border-top: solid var(--blue-theme);
   cursor: default;
 }
 
 .titre-faq {
-  border-top: solid var(--primary-theme);
+  border-top: solid var(--blue-theme);
   height: 2.8vw;
 }
 
@@ -407,13 +419,21 @@ header {
   transition: transform 0.6s ease-in-out;
 }
 
+.fleche-text-recru {
+  width: 1.8vw;
+  margin-left: 0vw;
+  margin-right: 1vw;
+  transform: rotate(90deg);
+  transition: transform 0.4s ease-in-out;
+}
+
 .boite-question-reponse {
   width: 100vw;
 }
 
 .boite-question-reponse p {
   width: 50vw;
-  margin-left: 2.8vw;
+  margin-left: 4.6vw;
   margin-right: 1vw;
 }
 
@@ -466,6 +486,42 @@ header {
 
 .boite-parcoursup img {
   transform: rotate(50deg);
+}
+
+.vers-parcoursup {
+  height: 2.8vw;
+}
+
+.boite-parcoursup {
+  cursor: default;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.vers-parcoursup a {
+  font-family: "Krona One";
+  font-size: 2vw;
+  line-height: 1.4em;
+  margin-left: 0.4vw;
+  transition: all 0.3s ease;
+}
+
+.boite-parcoursup img {
+  transform: rotate(-45deg);
+  width: 1.8vw;
+  margin-right: 0.4vw;
+  margin-left: 0vw;
+  transition: all 0.3s ease;
+}
+
+.boite-parcoursup:hover img {
+  margin-right: 0.2vw;
+  margin-left: 0.2vw;
+}
+
+.boite-parcoursup:hover a {
+  margin-left: 0.2vw;
 }
 
 /* IMAGES QUESTIONS */
@@ -572,6 +628,15 @@ header {
   height: 6vw;
 }
 
+/*PORTFOLIOS*/
+
+.boite-portfolios {
+  width: 100%;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+  height: 6vw;
+}
+
 .titre-portfolio {
   padding: 1.4vw 2vw;
   display: flex;
@@ -624,8 +689,66 @@ header {
 
 footer {
   height: 2vw;
-  padding: 2vw;
+  padding: 2.2vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* VIDEO 360*/
+
+.boite-360 {
+  height: 40vw;
+}
+
+.text-360 {
+  margin: 2vw auto;
+  width: 30vw;
+}
+
+/* FORMATION */
+
+.conteneur-intro-formation {
+  height: 45vw;
+}
+
+.conteneur-intro-formation div {
+  width: 50vw;
+  height: 25vw;
+  margin: 0 auto 3vw;
+}
+
+.conteneur-intro-formation p {
+  width: 50vw;
+  margin: 0 auto 5vw;
+}
+
+.fleche-text-parcoursup {
+  width: 2.6vw;
+  margin-left: 0vw;
+  margin-right: 0.5vw;
+  transform: rotate(45deg);
+  transition: transform 0.4s ease-in-out;
+}
+
+.faq {
+  height: 3vw;
+  border-top: 3px solid var(--blue-theme);
+  border-bottom: 3px solid var(--blue-theme);
+  margin-bottom: 3vw;
+  padding-left: 2.2vw;
+}
+
+.questions {
+  border: none;
+  padding-left: 2.2vw;
+}
+
+.questions h3 {
+  font-size: 1.7vw;
+}
+
+.parcoursup-faq {
+  margin-top: 3vw;
+  padding-left: 2.2vw;
 }
