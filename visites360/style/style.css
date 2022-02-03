@@ -126,17 +126,67 @@ footer div {
 	padding: 1.3vw;
 }
 
-footer h1 {
+footer p {
 	cursor: pointer;
+	font-family: "Krona One", sans-serif;
+	color: rgb(255, 74, 1);
+	font-size: 3vw;
+	text-decoration: none;
+	transition: margin ease-in-out 0.4s;
 }
+
+.fleche-text {
+  width: 2.6vw;
+  margin-left: 0vw;
+  margin-right: 0.8vw;
+  transition: margin ease-in-out 0.4s;
+}
+
+.lien-dsaa:hover .fleche-text,
+.lien-dnmade:hover .fleche-text {
+  margin-left: 0.8vw;
+  margin-right: 0vw;
+  transition: margin ease-in-out 0.3s;
+}
+
 
 .lien-dsaa {
 	width: 50%;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	border-right: 2px solid rgb(255, 74, 1);
 }
 
 .lien-dnmade {
 	width: 50%;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.lien-dsaa p,
+.lien-dnmade p {
+  margin-left: 2vw;
+  transition: margin-left ease-in-out 0.4s;
+}
+
+a {
+	text-decoration: none;
+}
+
+.lien-dnmade:hover p,
+.lien-dsaa:hover p {
+  margin-left: 0.4vw;
+  transition: margin-left ease-in-out 0.3s;
+}
+
+.fleche-text {
+  width: 2.6vw;
+  margin-left: 0vw;
+  transition: margin-left ease-in-out 0.4s;
+}
+
+.lien-dsaa:hover .fleche-text,
+.lien-dnmade:hover .fleche-text,{
+  margin-left: 0.8vw;
+  transition: margin-left ease-in-out 0.3s;
 }
