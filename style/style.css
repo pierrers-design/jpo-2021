@@ -348,7 +348,8 @@ header {
 
 /*Integration carte Open Street Map: */
 #carte-osm {
-  margin: 2vw 0 1vw -2.2vw;
+  outline: 2px solid;
+  margin: 2vw 0 1.4vw -2.2vw;
   width: 99.8%;
   height: 15vw;
   filter: sepia(100%) hue-rotate(300deg);
