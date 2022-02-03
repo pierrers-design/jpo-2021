@@ -1,3 +1,9 @@
+:root {
+  --primary-theme: rgb(255, 74, 1);
+  --grey-theme: rgb(237, 245, 255);
+  --grey-dark-theme: rgb(215, 215, 215);
+}
+
 html {
 	border: none;
 	padding: none;
@@ -8,18 +14,20 @@ body {
 }
 
 header {
-	margin: 2vw;
+  width: 100vw;
+  border-bottom: 2px solid var(--primary-theme);
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  background-color: var(--grey-theme);
+  padding: 1.5vw;
+  padding-left: 3vw;
 }
 
 h1 {
 	font-family: "Krona One", sans-serif;
 	color: rgb(255, 74, 1);
 	font-size: 3vw;
-}
-
-hr {
-	border: 1px solid rgb(255, 74, 1);
-	margin: 2vw 2vw 0vw 0vw;
 }
 
 p,
@@ -31,7 +39,16 @@ p,
 }
 
 .texte_presentation {
-	margin: 2vw;
+	margin: 13.5vw 3vw 0vw;
+}
+
+.plan {
+	width: calc(100% - 6vw);
+	margin: auto;
+	padding-bottom: 2vw;
+	position: relative;
+	bottom: 6vw;
+	margin-bottom: 3vw;
 }
 
 .global {
@@ -39,12 +56,6 @@ p,
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 1vw;
 	margin: 0vw 2vw 2vw 2vw;
-}
-
-.plan {
-	width: calc(100% - 4vw);
-	margin: auto;
-	padding-bottom: 2vw;
 }
 
 .photos:nth-child(1)::after {
@@ -104,6 +115,19 @@ footer {
 	display: flex;
 	width: 100%;
 	outline: 2px solid rgb(255, 74, 1);
+}
+
+footer img{
+	width: 2.2vw;
+	margin-right: 1vw;
+}
+
+footer div {
+	padding: 1.3vw;
+}
+
+footer h1 {
+	cursor: pointer;
 }
 
 .lien-dsaa {

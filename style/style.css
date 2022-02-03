@@ -330,6 +330,11 @@ header {
   align-items: center;
 }
 
+.infos-pratiques {
+  margin-left: 4.55vw;
+  margin-top: 1vw;
+}
+
 .conference h2 {
   width: 100%;
   padding: 1.5vw 5.5vw;
@@ -401,12 +406,12 @@ small a {
   transition: height 0.8s ease-in-out;
   padding: 1vw;
   padding-left: 2.2vw;
-  border-top: solid var(--blue-theme);
+  border-top: solid var(--primary-theme);
   cursor: default;
 }
 
 .titre-faq {
-  border-top: solid var(--blue-theme);
+  border-top: solid var(--primary-theme);
   height: 2.8vw;
 }
 
@@ -457,9 +462,9 @@ small a {
 .question-10,
 .question-11,
 .question-12 {
-  color: var(--grey-theme);
-  border-color: var(--grey-theme);
-  background-color: var(--primary-theme);
+  color: var(--primary-theme);
+  border-color: var(--primary-theme);
+  background-color: var(--grey-theme);
 }
 
 [class*="svg-play-"] {
@@ -734,8 +739,8 @@ footer {
 
 .faq {
   height: 3vw;
-  border-top: 3px solid var(--blue-theme);
-  border-bottom: 3px solid var(--blue-theme);
+  border-top: 3px solid var(--primary-theme);
+  border-bottom: 3px solid var(--primary-theme);
   margin-bottom: 3vw;
   padding-left: 2.2vw;
 }
